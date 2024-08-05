@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Перевірка полів</title>
+    <style>
+      body {
+        padding: 30px 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- form1 -->
+    <form id="form1">
+      <h2 class="title">Завдання 1</h2>
+      <label for="field11">
+        Ведіть будь-який рядок:
+        <input type="text" id="field11" name="field11" />
+        <br />
+      </label>
+
+      <label for="field12">
+        Ведіть будь-який рядок:
+        <input type="text" id="field12" name="field11" />
+        <br />
+      </label>
+      <button type="button" onclick="checkFields1()">Перевірити</button>
+      <p id="message1"></p>
+    </form>
+    <!-- form 2 -->
+    <form id="form2">
+      <h2 class="title">Завдання 2</h2>
+      <label for="field21">
+        Ведіть будь-яке число:
+        <input type="number" id="field21" name="field21" />
+        <br />
+      </label>
+
+      <label for="field22">
+        Ведіть будь-яке число:
+        <input type="number" id="field22" name="field22" />
+        <br />
+      </label>
+      <button type="button" onclick="checkFields2()">Перевірити</button>
+      <p id="message2"></p>
+    </form>
+    <!-- form 3 -->
+    <form id="form3">
+      <h2 class="title">Завдання 3</h2>
+      <label for="field3">
+        Ведіть будь-яке рядок:
+        <input type="text" id="field3" name="field3" />
+        <br />
+      </label>
+      <button type="button" onclick="checkFields3()">Перевірити</button>
+      <p id="message3"></p>
+    </form>
+    <!-- form 4 -->
+    <form id="form4">
+      <h2 class="title">Завдання 4</h2>
+      <label for="field4">
+        Ведіть будь-яке число:
+        <input type="text" id="field4" name="field4" />
+        <br />
+      </label>
+      <button type="button" onclick="checkFields4()">Перевірити</button>
+      <p id="message4"></p>
+    </form>
+    <!-- form 5 -->
+    <form id="form5">
+      <h2 class="title">Завдання 5</h2>
+      <label for="field-name">
+        Ім'я:
+        <input type="text" id="field-name" name="field-name" />
+        <br />
+        <p id="message-name"></p>
+      </label>
+      <label for="field-email">
+        Пошта:
+        <input type="text" id="field-email" name="field-email" />
+        <br />
+        <p id="message-email"></p>
+      </label>
+      <label for="field-password">
+        Пароль:
+        <input type="text" id="field-password" name="field-password" />
+        <br />
+        <p id="message-password"></p>
+      </label>
+      <button type="button" onclick="checkFields5()">Перевірити</button>
+      <p id="message5"></p>
+    </form>
+    <script src="./js/forms.js"></script>
+  </body>
+</html>
