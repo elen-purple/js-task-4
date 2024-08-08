@@ -75,6 +75,6 @@ function checkFields5() {
   }
 
   if (fieldName.length >= 3 && isEmail === true && fieldPassword.length >= 6) {
-    window.location.href = "/second-page.html";
+    window.location.href = "/js-task-4/second-page.html";
   }
 }
