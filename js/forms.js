@@ -75,8 +75,6 @@ function checkFields5() {
   }
 
   if (fieldName.length >= 3 && isEmail === true && fieldPassword.length >= 6) {
-    message5.textContent = "Форма заповнена правильно";
-  } else {
-    message5.textContent = "";
+    window.location.href = "/second-page.html";
   }
 }
